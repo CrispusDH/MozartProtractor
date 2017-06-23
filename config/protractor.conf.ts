@@ -1,6 +1,6 @@
 import { Config, browser } from 'protractor'
-import {HomePage} from "../page_objects/home.page";
 import {addCustomLocatorDataTestId} from "../helpers/custom_By/data.test.id"
+
 
 // Full protractor configuration file reference could be found here:
 // https://github.com/angular/protractor/blob/master/lib/config.ts
@@ -12,13 +12,12 @@ let conf: Config = {
     '../specs/**/*.spec.js',
     '../specs/*.spec.js'
   ],
-  //baseUrl: new CoreConstants().BASE_URL,
 
-  onPrepare: () => {
+   onPrepare: async () => {
     //disabled angular waiting
-    browser.waitForAngularEnabled(false);
+    await browser.waitForAngularEnabled(false);
     //maximize window
-    browser.manage().window().maximize();
+    await browser.manage().window().maximize();
 
     //add custom By locator data-test-id
     addCustomLocatorDataTestId();
