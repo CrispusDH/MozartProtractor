@@ -1,0 +1,21 @@
+{
+  "name": "ui-functional-tests",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "webdriver-manager update && tsc",
+    "test": "protractor ./config/protractor.conf.js",
+    "tsc": "tsc",
+    "tscw": "tsc -w"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.52",
+    "@types/node": "^8.0.0",
+    "jasmine": "^2.6.0",
+    "jasmine-protractor-matchers": "^1.1.0",
+    "jasmine-reporters": "^2.2.1",
+    "jasmine2-reporter": "^0.3.1",
+    "protractor": "^5.1.2",
+    "protractor-element-extend": "^2.0.2",
+    "typescript": "2.3.4"
+  }
+}
