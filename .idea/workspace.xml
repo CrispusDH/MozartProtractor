@@ -4,6 +4,8 @@
     <list default="true" id="b718a601-3c70-4269-ab8d-faccf78b695f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/custom_By/data.test.id.ts" afterPath="$PROJECT_DIR$/helpers/custom_By/data.test.id.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" afterPath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/homepage.spec.ts" afterPath="$PROJECT_DIR$/specs/homepage.spec.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28,51 +30,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="data.test.id.ts" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/helpers/custom_By/data.test.id.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="lib.es6.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
+            <state relative-caret-position="17">
               <caret line="20762" column="30" lean-forward="false" selection-start-line="20762" selection-start-column="22" selection-end-line="20762" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.d.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/index.d.ts">
+      <file leaf-file-name="wait.conditions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+            <state relative-caret-position="221">
+              <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -81,8 +53,8 @@
       <file leaf-file-name="locators.d.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/locators.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
+            <state relative-caret-position="221">
+              <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -91,21 +63,44 @@
       <file leaf-file-name="protractor.conf.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/protractor.conf.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
+            <state relative-caret-position="374">
+              <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+              <folding>
+                <element signature="e#0#44#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.page.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.spec.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="homepage.spec.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
+            <state relative-caret-position="204">
+              <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
               <folding>
                 <element signature="e#54#106#0" expanded="true" />
+                <marker date="1498404346216" expanded="true" signature="485:714" ph="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.test.id.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/custom_By/data.test.id.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -147,17 +142,17 @@
         <option value="$PROJECT_DIR$/page_objects/base.page.ts" />
         <option value="$PROJECT_DIR$/node_modules/protractor/built/runner.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/page_objects/home.page.ts" />
         <option value="$PROJECT_DIR$/helpers/wrappers/base.test.ts" />
         <option value="$PROJECT_DIR$/helpers/helper.ts" />
         <option value="$PROJECT_DIR$/helpers/waiters/WaitConditions.ts" />
         <option value="$PROJECT_DIR$/config/protractor.conf.js" />
-        <option value="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
-        <option value="$PROJECT_DIR$/specs/homepage.spec.ts" />
         <option value="$PROJECT_DIR$/helpers/constants/core.constants.ts" />
         <option value="$PROJECT_DIR$/helpers/waiters/wait.conditions.ts" />
         <option value="$PROJECT_DIR$/config/protractor.conf.ts" />
+        <option value="$PROJECT_DIR$/page_objects/home.page.ts" />
+        <option value="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
         <option value="$PROJECT_DIR$/helpers/custom_By/data.test.id.ts" />
+        <option value="$PROJECT_DIR$/specs/homepage.spec.ts" />
       </list>
     </option>
   </component>
@@ -173,10 +168,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-1928" />
-    <option name="y" value="-4" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -195,7 +190,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -252,6 +246,14 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="helpers" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wrappers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="base.page.ts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NestingTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -336,15 +338,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="D:/jasmine-protractor-matchers" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="nodejs_interpreter_path" value="D:/nodejs/node" />
     <property name="SearchEverywhereHistoryKey" value="waitForAngularEnabled&#9;null&#9;null" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="javascript.nodejs.core.library.configured.version" value="6.10.1" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -451,27 +455,28 @@
       <workItem from="1498200849928" duration="21940000" />
       <workItem from="1498230942812" duration="3290000" />
       <workItem from="1498302545279" duration="5409000" />
+      <workItem from="1498401822046" duration="2412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57703000" />
+    <option name="totallyTimeSpent" value="60115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-4" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31259152" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -493,8 +498,6 @@
         <option value="$PROJECT_DIR$/page_objects/home.page.js.map" />
         <option value="$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js" />
         <option value="$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js.map" />
-        <option value="$PROJECT_DIR$/helpers/custom_By/data.test.id.js" />
-        <option value="$PROJECT_DIR$/helpers/custom_By/data.test.id.js.map" />
         <option value="$PROJECT_DIR$/helpers/constants/core.constants.js.map" />
         <option value="$PROJECT_DIR$/helpers/constants/core.constants.js" />
         <option value="$PROJECT_DIR$/helpers/waiters/wait.conditions.js" />
@@ -517,6 +520,7 @@
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
             <element signature="e#54#106#0" expanded="true" />
+            <marker date="1498404346216" expanded="true" signature="485:714" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -535,7 +539,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -567,6 +573,7 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#54#106#0" expanded="true" />
+            <marker date="1498404346216" expanded="true" signature="485:714" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -580,23 +587,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/helper.js" />
@@ -645,13 +652,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.test.ts" />
     <entry file="file://$PROJECT_DIR$/specs/homepage.spec.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/helper.ts" />
@@ -713,26 +720,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/selenium-webdriver/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67490">
-          <caret line="3979" column="38" lean-forward="false" selection-start-line="3979" selection-start-column="30" selection-end-line="3979" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="1" lean-forward="false" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/jasmine.json" />
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -752,21 +744,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
+    <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/index.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="2" lean-forward="false" selection-start-line="17" selection-start-column="2" selection-end-line="17" selection-end-column="2" />
-          <folding>
-            <element signature="e#54#106#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="51">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/home.page.ts">
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding>
+            <marker date="1498401748206" expanded="true" signature="0:551" ph="{&quot;name&quot;: &quot;ui-functional-tests&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -778,61 +770,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/index.d.ts">
+    <entry file="file://$PROJECT_DIR$/page_objects/home.page.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
+        <state relative-caret-position="34">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/locators.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="27" column="21" lean-forward="false" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#115#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/protractor.conf.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="22" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="374">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding>
+            <element signature="e#0#44#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/locators.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        <state relative-caret-position="221">
+          <caret line="39" column="27" lean-forward="true" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es6.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
+        <state relative-caret-position="17">
           <caret line="20762" column="30" lean-forward="false" selection-start-line="20762" selection-start-column="22" selection-end-line="20762" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="19" column="23" lean-forward="false" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/helpers/custom_By/data.test.id.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        <state relative-caret-position="102">
+          <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@types/selenium-webdriver/index.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="4003" column="2" lean-forward="false" selection-start-line="4003" selection-start-column="2" selection-end-line="4003" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
+          <folding>
+            <element signature="e#54#106#0" expanded="true" />
+            <marker date="1498404346216" expanded="true" signature="485:714" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>

@@ -6,7 +6,6 @@ import {By} from "selenium-webdriver";
 
 export abstract class BasePage {
 
-    readonly coreConstants = new CoreConstants();
     private conditions: WaitConditions = new WaitConditions();
 
     openHomePage() : HomePage {
@@ -15,16 +14,12 @@ export abstract class BasePage {
     }
 
     private async open() {
-        await browser.get(this.coreConstants.BASE_URL);
+        await browser.get(CoreConstants.BASE_URL);
     }
 
-    async click(locator?: By | ProtractorBy, elementFinder?: ElementFinder){
-        if (elementFinder)
-            await elementFinder.click();
-        else if (locator) {
+    async click(locator: By | ProtractorBy){
             await this.conditions.enabled(locator);
             await element(locator).click();
         }
-    }
 
 }
