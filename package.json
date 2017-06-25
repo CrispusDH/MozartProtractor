@@ -17,5 +17,8 @@
     "protractor": "^5.1.2",
     "protractor-element-extend": "^2.0.2",
     "typescript": "2.3.4"
+  },
+  "dependencies": {
+    "protractor-custom-locators": "^1.3.0"
   }
 }

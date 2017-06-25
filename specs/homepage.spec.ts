@@ -9,7 +9,8 @@ describe('Verifying project generation ', function () {
         await new HomePage()
                 .openHomePage()
                 //.click(createButton)
-                .click(by['dataTestId']('create-project-button'));
+                .click(by.dataTestId('create-project-button'));
+
         await browser.sleep(5000);
 
             //I want to do casting my custom locator 'data-test-id' to By | ProtractorBy in the closest time

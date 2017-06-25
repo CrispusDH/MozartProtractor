@@ -1,4 +1,4 @@
-import { Config, browser } from 'protractor'
+import {Config, browser, protractor} from 'protractor'
 import {addCustomLocatorDataTestId} from "../helpers/custom_By/data.test.id"
 
 
@@ -20,7 +20,9 @@ let conf: Config = {
     await browser.manage().window().maximize();
 
     //add custom By locator data-test-id
-    addCustomLocatorDataTestId();
+    //addCustomLocatorDataTestId();
+
+    require('protractor-custom-locators')(protractor);
 
     // Adding nice console output.
     // Provided by: https://github.com/razvanz/jasmine2-reporter
