@@ -42,7 +42,7 @@ let conf: Config = {
     jasmine.getEnv().addReporter(new JUnitXmlReporter(junit_reporter_options))
 
     // Specifying global beforeEach and afterEach jasmine2 hooks.
-    beforeEach(async () => {
+    beforeEach(() => {
 
       // Adding .toAppear() and .toDisappear() into available matchers.
       // https://github.com/Xotabu4/jasmine-protractor-matchers

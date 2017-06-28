@@ -14,12 +14,27 @@ export abstract class BasePage {
     }
 
     private async open() {
+        console.log('open start');
         await browser.get(CoreConstants.BASE_URL);
+        console.log('open was done')
     }
 
     async click(locator: By | ProtractorBy){
+        console.log('click start');
             await this.conditions.enabled(locator);
             await element(locator).click();
+        console.log('click end');
         }
+
+    async clearInput(locator: By | ProtractorBy){
+        await this.conditions.enabled(locator);
+        await element(locator).clear()
+    }
+
+    async type(text: string, locator: By | ProtractorBy){
+        await this.clearInput(locator);
+        await this.conditions.enabled(locator);
+        await element(locator).sendKeys(text)
+    }
 
 }
