@@ -4,13 +4,8 @@ import {By} from "selenium-webdriver";
 import {CoreConstants} from '../constants/core.constants'
 
 export class WaitConditions {
-/*
-    private findElementByTestId(dataTestIdName: string) : ElementFinder {
-        return element(by['data-test-id'](dataTestIdName));
-    }
 
-*/
-    public async enabled(locator: By | ProtractorBy) {
+    public async clickable(locator: By | ProtractorBy) {
         await browser.wait(EC.elementToBeClickable(element(locator)), CoreConstants.WAIT_TIMEOUT)
     }
 

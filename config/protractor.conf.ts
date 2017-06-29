@@ -1,5 +1,6 @@
 import {Config, browser, protractor} from 'protractor'
 import {addCustomLocatorDataTestId} from "../helpers/custom_By/data.test.id"
+import {CoreConstants} from "../helpers/constants/core.constants";
 
 
 // Full protractor configuration file reference could be found here:
@@ -14,10 +15,10 @@ let conf: Config = {
   ],
 
    onPrepare: async () => {
-    //disabled angular waiting
+
     await browser.waitForAngularEnabled(false);
-    //maximize window
     await browser.manage().window().maximize();
+    await browser.get(CoreConstants.BASE_URL);
 
     //add custom By locator data-test-id
     //addCustomLocatorDataTestId();
@@ -42,7 +43,7 @@ let conf: Config = {
     jasmine.getEnv().addReporter(new JUnitXmlReporter(junit_reporter_options))
 
     // Specifying global beforeEach and afterEach jasmine2 hooks.
-    beforeEach(async () => {
+    beforeEach(() => {
 
       // Adding .toAppear() and .toDisappear() into available matchers.
       // https://github.com/Xotabu4/jasmine-protractor-matchers

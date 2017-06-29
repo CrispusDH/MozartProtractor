@@ -8,18 +8,21 @@ export abstract class BasePage {
 
     private conditions: WaitConditions = new WaitConditions();
 
-    openHomePage() : HomePage {
-        this.open();
-        return new HomePage();
-    }
-
-    private async open() {
-        await browser.get(CoreConstants.BASE_URL);
-    }
-
     async click(locator: By | ProtractorBy){
-            await this.conditions.enabled(locator);
+            await this.conditions.clickable(locator);
             await element(locator).click();
+            console.log('click was wait and done')
         }
+
+    async clearInput(locator: By | ProtractorBy){
+        await this.conditions.clickable(locator);
+        await element(locator).clear()
+    }
+
+    async type(text: string, locator: By | ProtractorBy){
+        await this.clearInput(locator);
+        await this.conditions.clickable(locator);
+        await element(locator).sendKeys(text)
+    }
 
 }
