@@ -12,18 +12,18 @@ export class ProjectCreateModal extends BasePage implements ProjectCreateModalIn
     private readonly createProjectCancelButton: ProtractorBy = by.dataTestId('create-project-cancel-button');
     private readonly createProjectSaveButton: ProtractorBy = by.dataTestId('create-project-save-button');
 
-    clickOnSaveButton(): ProjectPage {
-        this.click(this.createProjectSaveButton);
+    async clickOnSaveButton(): Promise<ProjectPage> {
+        await this.click(this.createProjectSaveButton);
         return new ProjectPage()
     }
 
-    clickOnCancelButton(): HomePage {
-        this.click(this.createProjectCancelButton);
-        return new HomePage();
+    async clickOnCancelButton(): Promise<HomePage> {
+        await this.click(this.createProjectCancelButton);
+        return new HomePage()
     }
 
-    typeProjectName(name: string): ProjectCreateModal {
-        this.type(name, this.projectNameInput);
+    async typeProjectName(name: string): Promise<this> {
+        await this.type(name, this.projectNameInput);
         return this
     }
 
