@@ -1,7 +1,5 @@
 import {BasePage} from "../helpers/wrappers/base.page";
 import {ProjectCreateModalInterface} from "./interfaces/project-create-modal.interface";
-import {ProjectPage} from "./project.page";
-import {HomePage} from "./home.page";
 import {by, ProtractorBy} from "protractor";
 
 export class ProjectCreateModal extends BasePage implements ProjectCreateModalInterface{
@@ -12,16 +10,21 @@ export class ProjectCreateModal extends BasePage implements ProjectCreateModalIn
     private readonly createProjectCancelButton: ProtractorBy = by.dataTestId('create-project-cancel-button');
     private readonly createProjectSaveButton: ProtractorBy = by.dataTestId('create-project-save-button');
 
-    async clickOnSaveButton(): Promise<void> {
+    private async clickOnSaveButton(): Promise<void> {
         await this.click(this.createProjectSaveButton);
     }
 
-    async clickOnCancelButton(): Promise<void> {
+    private async clickOnCancelButton(): Promise<void> {
         await this.click(this.createProjectCancelButton);
     }
 
-    async typeProjectName(name: string): Promise<void> {
+    private async typeProjectName(name: string): Promise<void> {
         await this.type(name, this.projectNameInput);
+    }
+
+    async createNewProject(name: string): Promise<void> {
+        await this.typeProjectName(name);
+        await this.clickOnSaveButton();
     }
 
 }

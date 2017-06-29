@@ -1,6 +1,4 @@
 import {browser, element, ElementFinder, protractor, ProtractorBy} from 'protractor'
-import {CoreConstants} from '../constants/core.constants'
-import {HomePage} from '../../page_objects/home.page'
 import {WaitConditions} from '../waiters/wait.conditions'
 import {By} from "selenium-webdriver";
 
