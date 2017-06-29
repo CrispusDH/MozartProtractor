@@ -5,7 +5,7 @@ import {CoreConstants} from '../constants/core.constants'
 
 export class WaitConditions {
 
-    public async enabled(locator: By | ProtractorBy) {
+    public async clickable(locator: By | ProtractorBy) {
         await browser.wait(EC.elementToBeClickable(element(locator)), CoreConstants.WAIT_TIMEOUT)
     }
 

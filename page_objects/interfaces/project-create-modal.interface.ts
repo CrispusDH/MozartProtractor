@@ -3,7 +3,7 @@ import {ProjectPage} from "../project.page";
 import {HomePage} from "../home.page";
 
 export interface ProjectCreateModalInterface{
-    clickOnSaveButton(): Promise<ProjectPage>
-    clickOnCancelButton(): Promise<HomePage>
-    typeProjectName(name: string): Promise<this>
+    clickOnSaveButton(): Promise<void>
+    clickOnCancelButton(): Promise<void>
+    typeProjectName(name: string): Promise<void>
 }

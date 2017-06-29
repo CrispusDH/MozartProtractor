@@ -8,13 +8,8 @@ export class HomePage extends BasePage implements HomeInterface{
 
     private readonly createButton: ProtractorBy = by.dataTestId("create-project-button");
 
-    clickOnCreateButton(): any {
-        async () => this.click(this.createButton)
-            .then(() => {
-                return new ProjectCreateModal();
-
-            })
-
+    async clickOnCreateButton(): Promise<void> {
+         this.click(this.createButton)
     }
 
 }
