@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b718a601-3c70-4269-ab8d-faccf78b695f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" afterPath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/interfaces/home.interface.ts" afterPath="$PROJECT_DIR$/page_objects/interfaces/home.interface.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" afterPath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" afterPath="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/homepage.spec.ts" afterPath="$PROJECT_DIR$/specs/homepage.spec.ts" />
@@ -31,13 +32,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-create-modal.page.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="project-create-modal.page.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/page_objects/project-create-modal.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+            <state relative-caret-position="51">
+              <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal-body.fragment.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+              <folding>
+                <element signature="e#0#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="modal-footer.fragment.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="112" lean-forward="false" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+              <folding>
+                <element signature="e#0#68#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,11 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="homepage.spec.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="homepage.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+            <state relative-caret-position="51">
+              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
               <folding>
                 <element signature="e#54#106#0" expanded="true" />
               </folding>
@@ -128,8 +153,10 @@
         <option value="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
         <option value="$PROJECT_DIR$/page_objects/interfaces/home.interface.ts" />
         <option value="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" />
-        <option value="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts" />
         <option value="$PROJECT_DIR$/specs/homepage.spec.ts" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts" />
+        <option value="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" />
       </list>
     </option>
   </component>
@@ -150,7 +177,9 @@
     <option name="width" value="1382" />
     <option name="height" value="784" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -207,6 +236,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="page_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MozartProtractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MozartProtractor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_objects" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="page_fragments" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,7 +466,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85245000" />
+    <option name="totallyTimeSpent" value="89075000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -476,6 +523,10 @@
         <option value="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.js.map" />
         <option value="$PROJECT_DIR$/page_objects/project.page.js" />
         <option value="$PROJECT_DIR$/page_objects/project.page.js.map" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.js" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.js.map" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.js.map" />
+        <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.js" />
       </list>
     </option>
   </component>
@@ -487,20 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/home.page.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -805,30 +842,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="49" lean-forward="false" selection-start-line="5" selection-start-column="49" selection-end-line="5" selection-end-column="49" />
+        <state relative-caret-position="51">
+          <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
           <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/project-create-modal.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
+            <element signature="e#0#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="62" lean-forward="false" selection-start-line="10" selection-start-column="62" selection-end-line="10" selection-end-column="62" />
+        <state relative-caret-position="51">
+          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
           <folding>
             <element signature="e#54#106#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="112" lean-forward="false" selection-start-line="6" selection-start-column="112" selection-end-line="6" selection-end-column="112" />
+          <folding>
+            <element signature="e#0#68#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="109" lean-forward="false" selection-start-line="7" selection-start-column="109" selection-end-line="7" selection-end-column="109" />
+          <folding>
+            <element signature="e#0#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/project-create-modal.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
+          <folding>
+            <element signature="e#0#55#0" expanded="true" />
           </folding>
         </state>
       </provider>
