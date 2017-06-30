@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b718a601-3c70-4269-ab8d-faccf78b695f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" afterPath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" afterPath="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" afterPath="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/specs/homepage.spec.ts" afterPath="$PROJECT_DIR$/specs/homepage.spec.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" afterPath="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -22,17 +21,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="base.page.ts" pinned="false" current-in-tab="false">
+      <file leaf-file-name="base.page.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-              <folding />
+            <state relative-caret-position="170">
+              <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+              <folding>
+                <element signature="e#0#84#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="project-create-modal.page.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="project-create-modal.page.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_objects/project-create-modal.page.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="51">
@@ -40,6 +41,16 @@
               <folding>
                 <element signature="e#0#55#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -56,6 +67,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="wait.conditions.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="modal-footer.fragment.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts">
           <provider selected="true" editor-type-id="text-editor">
@@ -64,6 +85,16 @@
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="protractor.conf.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/protractor.conf.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -93,21 +124,13 @@
       <file leaf-file-name="homepage.spec.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+            <state relative-caret-position="153">
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="e#54#106#0" expanded="true" />
+                <marker date="1498833290279" expanded="true" signature="276:574" ph="{...}" />
+                <marker date="1498833290279" expanded="true" signature="313:570" ph="{...}" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core.constants.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/constants/core.constants.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -150,13 +173,13 @@
         <option value="$PROJECT_DIR$/config/protractor.conf.ts" />
         <option value="$PROJECT_DIR$/page_objects/home.page.ts" />
         <option value="$PROJECT_DIR$/helpers/waiters/wait.conditions.ts" />
-        <option value="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
         <option value="$PROJECT_DIR$/page_objects/interfaces/home.interface.ts" />
         <option value="$PROJECT_DIR$/page_objects/interfaces/project-create-modal.interface.ts" />
         <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-body.fragment.ts" />
         <option value="$PROJECT_DIR$/specs/homepage.spec.ts" />
         <option value="$PROJECT_DIR$/page_objects/page_fragments/modal.fragments/modal-footer.fragment.ts" />
         <option value="$PROJECT_DIR$/page_objects/project-create-modal.page.ts" />
+        <option value="$PROJECT_DIR$/helpers/wrappers/base.page.ts" />
       </list>
     </option>
   </component>
@@ -466,7 +489,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89075000" />
+    <option name="totallyTimeSpent" value="89094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -554,6 +577,8 @@
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="11" selection-end-column="6" />
           <folding>
             <element signature="e#54#106#0" expanded="true" />
+            <marker date="1498833290279" expanded="true" signature="276:574" ph="{...}" />
+            <marker date="1498833290279" expanded="true" signature="313:570" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -576,25 +601,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="sourcemapFileViewerProvider">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js.map" />
     <entry file="file://$PROJECT_DIR$/helpers/helper.js" />
     <entry file="file://$PROJECT_DIR$/helpers/helper.js.map" />
-    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.js" />
     <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/runner.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -646,8 +656,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/protractor/built/config.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="17" lean-forward="false" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+        <state relative-caret-position="280">
+          <caret line="550" column="10" lean-forward="true" selection-start-line="550" selection-start-column="10" selection-end-line="550" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -705,6 +716,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="21" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -733,6 +745,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -752,8 +765,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/protractor.conf.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        <state relative-caret-position="153">
+          <caret line="11" column="10" lean-forward="false" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
           <folding />
         </state>
       </provider>
@@ -762,23 +775,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="40" lean-forward="false" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/page_objects/page_fragments/example.fragment.ts" />
     <entry file="file://$PROJECT_DIR$/helpers/constants/core.constants.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -786,15 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="1" lean-forward="false" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="84" lean-forward="false" selection-start-line="0" selection-start-column="84" selection-end-line="0" selection-end-column="84" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -802,15 +797,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -836,7 +822,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="8" lean-forward="false" selection-start-line="0" selection-start-column="8" selection-end-line="0" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -844,18 +829,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="45" lean-forward="false" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-          <folding>
-            <element signature="e#0#92#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/specs/homepage.spec.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="35" lean-forward="true" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="e#54#106#0" expanded="true" />
+            <marker date="1498833290279" expanded="true" signature="276:574" ph="{...}" />
+            <marker date="1498833290279" expanded="true" signature="313:570" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -886,6 +870,24 @@
           <caret line="3" column="91" lean-forward="false" selection-start-line="3" selection-start-column="91" selection-end-line="3" selection-end-column="91" />
           <folding>
             <element signature="e#0#55#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/waiters/wait.conditions.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/helpers/wrappers/base.page.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="43" lean-forward="false" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#84#0" expanded="true" />
           </folding>
         </state>
       </provider>

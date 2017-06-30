@@ -9,7 +9,6 @@ export abstract class BasePage {
     async click(locator: By | ProtractorBy){
             await this.conditions.clickable(locator);
             await element(locator).click();
-            console.log('click was wait and done')
         }
 
     async clearInput(locator: By | ProtractorBy){
