@@ -1,24 +1,24 @@
-import {browser, element, ElementFinder, protractor, ProtractorBy} from 'protractor'
+import {browser, element, ElementArrayFinder, ElementFinder, protractor, ProtractorBy} from 'protractor'
 import {WaitConditions} from '../waiters/wait.conditions'
 import {By} from "selenium-webdriver";
 
 export abstract class BasePage {
 
-    private conditions: WaitConditions = new WaitConditions();
+    private _conditions: WaitConditions = new WaitConditions();
 
-    async click(locator: By | ProtractorBy){
-            await this.conditions.clickable(locator);
+    protected async click(locator: By | ProtractorBy){
+            await this._conditions.clickable(locator);
             await element(locator).click();
         }
 
-    async clearInput(locator: By | ProtractorBy){
-        await this.conditions.clickable(locator);
+    protected async clearInput(locator: By | ProtractorBy){
+        await this._conditions.clickable(locator);
         await element(locator).clear()
     }
 
-    async type(text: string, locator: By | ProtractorBy){
+    protected async type(text: string, locator: By | ProtractorBy){
         await this.clearInput(locator);
-        await this.conditions.clickable(locator);
+        await this._conditions.clickable(locator);
         await element(locator).sendKeys(text)
     }
 
